@@ -129,7 +129,7 @@ RegisterNumber:  212222230105
 ```
 ### SR FLIPFLOP:
 ```
-module flipflops(S,R,clk,Q,Qbar);
+module srf(S,R,clk,Q,Qbar);
 input S,R,clk;
 output reg Q;
 output reg Qbar;
@@ -144,7 +144,7 @@ endmodule
 ```
 ### T FLIPFLOP:
 ```
-module flipflops(T,clk,Q,Qbar);
+module tflip(T,clk,Q,Qbar);
 input T,clk;
 output reg Q;
 output reg Qbar;
@@ -159,7 +159,7 @@ endmodule
 ```
 ### D FLIPFLOP:
 ```
-module flipflops(D,clk,Q,Qbar);
+module dflip(D,clk,Q,Qbar);
 input D,clk;
 output reg Q;
 output reg Qbar;
@@ -174,7 +174,7 @@ endmodule
 ```
 ### JK FLIPFLOP:
 ```
-module flipflops(J,K,clk,Q,Qbar);
+module jkflip(J,K,clk,Q,Qbar);
 input J,K,clk;
 output reg Q;
 output reg Qbar;
